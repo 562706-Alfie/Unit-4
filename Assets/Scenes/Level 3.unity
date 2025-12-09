@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   pl: {fileID: 1950013666}
   highScore: 0
-  playerHealth: 100
+  playerHealth: 10
 --- !u!1 &465963807
 GameObject:
   m_ObjectHideFlags: 0

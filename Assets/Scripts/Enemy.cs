@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
         if (enemy.gameObject.tag == "Player")
         {
             FindFirstObjectByType<AudioManager>().Play("PlayerHit");
-            LevelManager.instance.playerHealth -= 10;
+            LevelManager.instance.playerHealth -= 1;
             print("Player health is " + LevelManager.instance.playerHealth);
         }
     }

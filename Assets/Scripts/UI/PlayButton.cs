@@ -28,6 +28,6 @@ public class PlayButton : MonoBehaviour
     {
         FindFirstObjectByType<AudioManager>().Play("MenuSelect");
         SceneManager.LoadScene("Level 1");
-        LevelManager.instance.playerHealth = 100;
+        LevelManager.instance.playerHealth = 10;
     }
 }

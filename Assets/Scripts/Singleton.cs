@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour
     public Player pl;
     public static LevelManager instance;
     public int highScore;
-    public int playerHealth = 100;
+    public int playerHealth = 10;
     
 
     void Awake()

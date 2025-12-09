@@ -26,6 +26,6 @@ public class Play2Button : MonoBehaviour
     {
         FindFirstObjectByType<AudioManager>().Play("MenuSelect");
         SceneManager.LoadScene("Level 2");
-        LevelManager.instance.playerHealth = 100;
+        LevelManager.instance.playerHealth = 10;
     }
 }

@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
         if (LevelManager.instance.playerHealth == 0)
         {
             FindFirstObjectByType<AudioManager>().Play("PlayerDeath");
-            SceneManager.LoadScene("Front End");
+            SceneManager.LoadScene("Main Menu");
         }
 
         if (score >= highScore)
