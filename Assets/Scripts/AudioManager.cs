@@ -32,6 +32,7 @@ public class AudioManager : MonoBehaviour
         {
             s.source = gameObject.AddComponent<AudioSource>();
 
+            s.source.outputAudioMixerGroup = s.audioMixerGroup;
             s.source.clip = s.clip;
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
@@ -80,4 +81,13 @@ public class AudioManager : MonoBehaviour
 
     }
 
+    /*
+    To get sound working:
+    Add new sound in "audio manager" script on audio manager singleton
+    Create new method in "buton script" which plays that sound
+    Play sound via event trigger 
+
+    To get audio mixer working:
+    https://discussions.unity.com/t/setting-a-specific-audio-mixer-group-through-code/220611 ben grange
+    */
 }
