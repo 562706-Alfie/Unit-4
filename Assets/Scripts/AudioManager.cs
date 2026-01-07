@@ -48,7 +48,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetFloat("musicVolume", 0f);
+            PlayerPrefs.SetFloat("musicVolume", 1f);
         }
 
         if (PlayerPrefs.HasKey("sfxVolume"))
@@ -57,7 +57,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetFloat("sfxVolume", 0f);
+            PlayerPrefs.SetFloat("sfxVolume", 1f);
         }
     }
 
