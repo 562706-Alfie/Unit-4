@@ -11,7 +11,7 @@ public class MainMenuButton : MonoBehaviour
 
     public void ButtonMethod()
     {
-        FindFirstObjectByType<AudioManager>().Play("MenuSelect");
+        FindFirstObjectByType<AudioManager>().Play("NewMenuSelect");
         playText.text = "Returning";
         SceneManager.LoadScene("Main Menu");
     }

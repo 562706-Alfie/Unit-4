@@ -92,4 +92,9 @@ public class ButtonScript : MonoBehaviour
     {
         AudioManager.instance.Play("NewMenuAlarm");
     }
+
+    public void QuitGame()
+    {
+        QuitGame();
+    }
 }
